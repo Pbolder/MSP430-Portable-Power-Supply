@@ -113,7 +113,7 @@ Testing also showed that the 50 A ACS758 battery-current sensor is poorly matche
 
 The Onshape enclosure positions the PCB, battery, charger, OLED, mode switch, rotary voltage selector, illuminated enable button, indicator LEDs, and external connections in one portable assembly.
 
-| Front render                                                                                       | Rear render                                                                                                  |
+| Front render                                                                            | Rear render                                                                                                  |
 | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | ![Front view of the enclosure](MSP430-Programmable-Power-Supply/mechanical/enclosure-front-render.png) | ![Open enclosure showing internal organization](MSP430-Programmable-Power-Supply/mechanical/enclosure-open-render.png) |
 
