@@ -155,15 +155,10 @@ Primary design references:
 
 ## Known limitations and next revision
 
-- Continuous 2.5 A output capability has not been verified with an electronic load.
-- Efficiency, output ripple, switching waveforms, transient response, and full-load thermal behavior have not yet been characterized with an oscilloscope and programmable load.
+- Efficiency, output ripple, switching waveforms, transient response, and full-load thermal behavior have not yet been verified with an oscilloscope and programmable load.
 - The ACS758 total battery-current sensor lacks sufficient resolution for accurate sub-ampere measurement.
 - A future PCB revision should correct the catch-diode footprint rather than relying on the assembly correction used on the prototype.
-- The watchdog timer is held during the current development build and should be enabled in a future firmware revision.
 
-## Safety note
-
-This is an engineering prototype, not certified safety equipment and not a substitute for a commercial battery-management system. Lithium battery testing and power-converter operation require appropriate charging hardware, fusing, wiring, insulation, and supervision.
 
 ## Author
 
