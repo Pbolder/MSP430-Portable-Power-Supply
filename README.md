@@ -1,4 +1,4 @@
-# MSP430 Programmable Power Supply
+# MSP430 Protable Power Supply
 
 A portable, rechargeable power supply built around an MSP430G2553 and a custom discrete-component buck converter. The device accepts a 3S lithium-polymer battery and provides user-selectable 3.3 V, 5 V, and 9 V outputs while monitoring battery condition, output voltage, current, and temperature.
 
