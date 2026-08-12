@@ -32,13 +32,15 @@ The complete design process included LTspice simulation, Altium schematic captur
 | Battery range | Approximately 9.0-12.6 V |
 | Microcontroller | Texas Instruments MSP430G2553 |
 | Selectable outputs | 3.3 V, 5 V, and 9 V |
-| Output-current design target | 2.5 A continuous; full-load capability not yet verified |
+| Output-current design target | 2.5 A |
 | Firmware overcurrent trip | 2.7 A |
+| Firmware overtemperature trip | 95° C |
 | PWM controller | TL494 |
 | Gate driver | IRS2110 |
 | Output inductor | 68 uH |
 | Display | 2.42-inch, 128x64 SSD1309 OLED |
-| External ADCs | Two ADS1115 modules on a shared I2C bus |
+| ADCs | Two ADS1115 modules on a shared I2C bus |
+| Battery Charger | Integrated 3S charger module |
 | PCB | Custom four-layer board, primarily through-hole |
 | Enclosure | Custom Onshape design, 3D printed |
 
@@ -82,7 +84,7 @@ The four-layer PCB separates the switching power stage from the lower-level anal
 
 ## Firmware
 
-The MSP430 firmware is written in C and organized into modules so each subsystem can be tested independently.
+The MSP430 firmware is written in C and organized into modules.
 
 | Module | Responsibility |
 |---|---|
