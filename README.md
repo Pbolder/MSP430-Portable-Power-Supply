@@ -99,21 +99,7 @@ The MSP430 firmware is written in C and organized into modules.
 | `display.c`      | Mode-specific user-interface screens and warnings                      |
 | `timer.c`        | 10 ms, 100 ms, and 500 ms scheduler flags                              |
 
-The firmware explicitly disables the converter during startup. In OUTPUT mode, the enable button toggles the output request. A valid mode, a user enable request, and a clear safety state are all required before the MSP430 asserts the buck-enable signal.
 
-See [firmware/README.md](MSP430-Programmable-Power-Supply/firmware/README.md) for the pin map, I2C addresses, project-import instructions, and calibration locations.
-
-## Measured performance
-
-Testing used a digital multimeter, LED loads, and a 380 brushed DC motor. The multimeter was treated as the reference measurement.
-
-| Selected output | Central multimeter reading | Observed variation | OLED difference from multimeter |
-| --------------- | -------------------------: | -----------------: | ------------------------------: |
-| 3.3 V           |                     3.30 V |          +/-0.04 V |                       +/-0.01 V |
-| 5 V             |                     5.00 V |          +/-0.03 V |                       +/-0.01 V |
-| 9 V             |                     8.95 V |          +/-0.07 V |                       +/-0.02 V |
-
-The shunt-and-op-amp buck-current measurement agreed with the series multimeter measurement within approximately 0.02 A. The charging-current measurement agreed within approximately 0.01 A. Additional test details and the current limitations are documented in [testing/README.md](MSP430-Programmable-Power-Supply/testing/README.md).
 
 ## Hardware bring-up and engineering lessons
 
@@ -127,7 +113,7 @@ Testing also showed that the 50 A ACS758 battery-current sensor is poorly matche
 
 The Onshape enclosure positions the PCB, battery, charger, OLED, mode switch, rotary voltage selector, illuminated enable button, indicator LEDs, and external connections in one portable assembly.
 
-| Front-panel render                                                                                     | Open enclosure render                                                                                                  |
+| Front render                                                                                       | Rear render                                                                                                  |
 | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | ![Front view of the enclosure](MSP430-Programmable-Power-Supply/mechanical/enclosure-front-render.png) | ![Open enclosure showing internal organization](MSP430-Programmable-Power-Supply/mechanical/enclosure-open-render.png) |
 
@@ -137,18 +123,15 @@ The Onshape enclosure positions the PCB, battery, charger, OLED, mode switch, ro
 .
 |-- README.md
 |-- firmware/       MSP430 source code and CCS project files
-|-- hardware/       Schematic PDF, PCB images, and complete BOM
 |-- mechanical/     Enclosure renders
 |-- documentation/  Full engineering report
-|-- testing/        Measured results and test limitations
 `-- images/         README photographs, diagrams, and simulations
 ```
 
 Primary design references:
-
 * [Complete electrical schematic](MSP430-Programmable-Power-Supply/hardware/schematics/complete-electrical-schematic.pdf)
 * [Complete bill of materials](MSP430-Programmable-Power-Supply/hardware/bom/complete-bom.xlsx)
-* [Detailed testing record](MSP430-Programmable-Power-Supply/testing/README.md)
+
 
 ## Known limitations and next revision
 
