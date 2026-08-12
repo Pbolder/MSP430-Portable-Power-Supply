@@ -45,7 +45,7 @@ The complete design process included LTspice simulation, Altium schematic captur
 
 ## System architecture
 
-![System block diagram](images/system-block-diagram.png)
+![System block diagram](MSP430-Portable-Power-Supply/images/system-block-diagram.png)
 
 The three-position mode switch provides hardware-level separation between charging and output operation. The MSP430 supervises these requests, reads the front-panel voltage selector and enable button, collects measurements, updates the display, and permits the buck converter to run only when the selected mode and safety state are valid. The TL494 and analog feedback network regulate the output; the MSP430 does not generate the converter's PWM waveform.
 
