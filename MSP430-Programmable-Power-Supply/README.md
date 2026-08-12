@@ -3,7 +3,7 @@
 A portable, rechargeable power supply built around an MSP430G2553 and a custom discrete-component buck converter. The device accepts a 3S lithium-polymer battery and provides user-selectable 3.3 V, 5 V, and 9 V outputs while monitoring battery condition, output voltage, current, and temperature.
 
 <p align="center">
-  <img src="images/completed-device.jpg" alt="Completed MSP430 programmable power supply showing the OLED user interface" width="520">
+  The full design calculations, component-selection reasoning, schematics, development history, and testing discussion are available in the [engineering report](documentation/MSP430-Programmable-Power-Supply-Engineering-Report.pdf).
 </p>
 
 ## Project overview
@@ -143,7 +143,7 @@ The Onshape enclosure positions the PCB, battery, charger, OLED, mode switch, ro
 `-- images/         README photographs, diagrams, and simulations
 ```
 
-The full design calculations, component-selection reasoning, schematics, development history, and testing discussion are available in the [engineering report](documentation/MSP430-Programmable-Power-Supply-Engineering-Report.pdf).
+
 
 Primary design references:
 
