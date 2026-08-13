@@ -28,21 +28,6 @@ The finished system combines a TL494 PWM controller, IRS2110 gate driver, extern
 - Added firmware overcurrent and overtemperature shutdown behavior.
 - Integrated the battery, charger, PCB, controls, display, and external connections into one portable device.
 
-## Specifications
-
-| Item | Implementation |
-|---|---|
-| Battery | 3S, 2200 mAh lithium-polymer pack |
-| Charging Input | 120V DC |
-| Battery range | Approximately 9.0-12.6 V |
-| Microcontroller | Texas Instruments MSP430G2553 |
-| Selectable outputs | 3.3 V, 5 V, and 9 V |
-| Output-current design target | 2.5 A |
-| Power controller and gate driver | TL494 and IRS2110 |
-| Display | 2.42-inch, 128x64 SSD1309 OLED |
-| PCB | Custom four-layer board, primarily through-hole |
-| Enclosure | Custom Onshape design, 3D printed |
-
 ## System architecture
 
 ![System block diagram](MSP430-Programmable-Power-Supply/images/diagrams/system-block-diagram.png)
