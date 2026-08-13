@@ -40,7 +40,7 @@ The finished system combines a TL494 PWM controller, IRS2110 gate driver, extern
 
 ![System block diagram](MSP430-Programmable-Power-Supply/images/diagrams/system-block-diagram.png)
 
-The three-position mode switch provides hardware-level separation between charging and output operation. The MSP430 reads the controls and sensors, updates the OLED, and permits the buck converter to operate only when the selected mode and safety state are valid. The TL494 and selectable analog feedback network regulate the output; the MSP430 does not generate the PWM waveform.
+The three-position mode switch provides hardware-level separation between charging and output operation. The MSP430 reads the controls and sensors, updates the OLED, and permits the buck converter to operate only when the selected mode and safety state are valid. The TL494 and selectable analog feedback network regulate the output.
 
 | Mode | Charging path | Buck converter | Logic and display |
 |---|---|---|---|
