@@ -26,11 +26,11 @@ The finished system combines a TL494 PWM controller, IRS2110 gate driver, extern
 | Item | Implementation |
 |---|---|
 | Battery | 3S, 2200 mAh lithium-polymer pack |
+| Charging Input | 120V DC |
 | Battery range | Approximately 9.0-12.6 V |
 | Microcontroller | Texas Instruments MSP430G2553 |
 | Selectable outputs | 3.3 V, 5 V, and 9 V |
 | Output-current design target | 2.5 A |
-| Firmware overcurrent trip | 2.7 A |
 | Power controller and gate driver | TL494 and IRS2110 |
 | Display | 2.42-inch, 128x64 SSD1309 OLED |
 | PCB | Custom four-layer board, primarily through-hole |
