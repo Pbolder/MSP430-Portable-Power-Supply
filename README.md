@@ -67,7 +67,7 @@ The three-position mode switch provides hardware-level separation between chargi
 
 The enclosure was modeled in Onshape around the PCB, battery, charger, OLED, switches, wiring, and external connections before being 3D printed.
 
-| Front-panel CAD design | Open-enclosure CAD design |
+| Front CAD design | Rear CAD design |
 |---|---|
 | ![Onshape front-panel enclosure render](MSP430-Programmable-Power-Supply/mechanical/cad/enclosure-front-render.png) | ![Onshape open-enclosure render](MSP430-Programmable-Power-Supply/mechanical/cad/enclosure-open-render.png) |
 
