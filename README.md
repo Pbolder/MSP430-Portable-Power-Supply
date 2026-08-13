@@ -105,7 +105,7 @@ Initial buck-converter testing opened the input fuse and damaged the MOSFET. Com
 ## Known limitations and next revision
 
 - Efficiency, output ripple, switching waveforms, transient response, and full-load thermal behavior have not yet been characterized with an oscilloscope and programmable load.
-- The 50 A ACS758 total battery-current sensor lacks sufficient resolution for accurate sub-ampere measurement; a lower-range Hall sensor or shunt-based current monitor would be better suited to this system.
+- The 50 A ACS758 total battery-current sensor lacks sufficient resolution for accurate sub-ampere measurement; a lower-range Hall sensor or shunt-based current monitor would provide better accuracy.
 - A future PCB revision should correct the catch-diode footprint rather than relying on the assembly correction used on the prototype.
 
 ## Author
