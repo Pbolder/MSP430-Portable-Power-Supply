@@ -103,7 +103,7 @@ Testing used a digital multimeter, LED loads, and a 380 brushed DC motor. The mu
 | 5 V | 5.00 V | +/-0.03 V | +/-0.01 V |
 | 9 V | 8.95 V | +/-0.07 V | +/-0.02 V |
 
-The shunt-and-op-amp buck-current measurement agreed with the series multimeter measurement within approximately 0.02 A. Charging-current measurement agreed within approximately 0.01 A.
+The shunt-and-op-amp buck-current measurement agreed with the series multimeter measurement within approximately 0.04 A. Charging-current measurement agreed within approximately 0.01 A.
 
 ## Biggest Challenge
 
