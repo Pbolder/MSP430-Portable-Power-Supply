@@ -76,7 +76,7 @@ The enclosure was modeled in Onshape around the PCB, battery, charger, OLED, swi
 
 ### Charging validation
 
-| Charge cycle in progress | Completed charge state |
+| Charge cycle in progress | Charge complete |
 |---|---|
 | ![Power supply charging the internal 3S battery](MSP430-Programmable-Power-Supply/images/build/charging-in-progress.jpg) | ![Power supply after completing a charge cycle](MSP430-Programmable-Power-Supply/images/build/charging-complete.jpg) |
 
