@@ -1,4 +1,5 @@
 /*
+ * Paul Bolder
  * main.c
  *
  * MSP430 Battery and Buck Converter Controller
