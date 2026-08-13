@@ -1,4 +1,5 @@
 /*
+ * Paul Bolder
  * safety.c
  *
  * Temperature and buck-output overcurrent protection.
