@@ -13,6 +13,7 @@ This project was developed as a portable alternative to a benchtop power supply 
 The finished system combines a TL494 PWM controller, IRS2110 gate driver, external MOSFET, 68 µH inductor, selectable analog feedback network, internal 3S charger, electrical and thermal sensing, two ADS1115 ADC modules, an SSD1309 OLED, an MSP430G2553, and a custom 3D-printed enclosure.
 
 <h2>Languages and Utilities Used</h2>
+
 - <b>C</b>
 - <b>LTspice</b>
 - <b>Altium</b>
