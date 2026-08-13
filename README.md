@@ -4,7 +4,7 @@ A portable, rechargeable power supply built around an MSP430G2553 and a custom d
 
 ![Completed MSP430 portable power supply operating an LED load](MSP430-Programmable-Power-Supply/images/build/completed-device-operating.jpg)
 
-**Project documentation:** [Read the full engineering report](https://drive.google.com/file/d/1P7i9WkhplWXDUOAJlc3iEpohvx6MGx04/view?usp=sharing) · [Electrical schematics](MSP430-Programmable-Power-Supply/hardware/complete-electrical-schematics.pdf) · [Bill of materials](MSP430-Programmable-Power-Supply/hardware/complete-bom.pdf) · [Firmware source](MSP430-Programmable-Power-Supply/firmware)
+## **Project documentation:** [Read the full engineering report](https://drive.google.com/file/d/1P7i9WkhplWXDUOAJlc3iEpohvx6MGx04/view?usp=sharing) · [Electrical schematics](MSP430-Programmable-Power-Supply/hardware/complete-electrical-schematics.pdf) · [Bill of materials](MSP430-Programmable-Power-Supply/hardware/complete-bom.pdf) · [Firmware source](MSP430-Programmable-Power-Supply/firmware)
 
 ## Project overview
 
