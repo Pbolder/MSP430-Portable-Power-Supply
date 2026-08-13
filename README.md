@@ -66,7 +66,7 @@ The enclosure was modeled in Onshape around the PCB, battery, charger, OLED, swi
 
 ### Final assembly
 
-| Finished front panel | Rear connections and cable management |
+| Front panel | Rear connections|
 |---|---|
 | ![Finished front panel](MSP430-Programmable-Power-Supply/images/build/enclosure-front.jpg) | ![Rear connections and cable management](MSP430-Programmable-Power-Supply/images/build/enclosure-rear.jpg) |
 
