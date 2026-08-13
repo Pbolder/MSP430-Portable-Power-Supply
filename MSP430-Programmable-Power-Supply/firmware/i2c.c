@@ -1,4 +1,5 @@
 /*
+ * Paul Bolder
  * i2c.c
  *
  * Polling-based MSP430G2553 I2C master driver.
