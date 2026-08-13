@@ -1,4 +1,5 @@
 /*
+ * Paul Bolder
  * inputs.c
  *
  * Decodes and debounces the mode and voltage-selection switches.
