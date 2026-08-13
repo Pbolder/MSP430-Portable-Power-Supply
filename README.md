@@ -98,7 +98,7 @@ Testing used a digital multimeter, LED loads, and a 380 brushed DC motor. The mu
 
 The shunt-and-op-amp buck-current measurement agreed with the series multimeter measurement within approximately 0.02 A. Charging-current measurement agreed within approximately 0.01 A.
 
-## Hardware bring-up
+## Biggest Challenge
 
 Initial buck-converter testing opened the input fuse and damaged the MOSFET. Comparing the schematic, PCB footprint, and diode datasheet revealed that the catch-diode footprint reversed its anode and cathode mapping. Installing the diode in the electrically correct orientation and replacing the damaged MOSFET restored normal operation. This reinforced the importance of checking symbol-to-footprint mappings and component polarity directly against manufacturer documentation before fabrication.
 
