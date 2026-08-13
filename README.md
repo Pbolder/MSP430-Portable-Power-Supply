@@ -81,7 +81,7 @@ The enclosure was modeled in Onshape around the PCB, battery, charger, OLED, swi
   <img src="MSP430-Programmable-Power-Supply/images/build/internal-wiring.jpg" alt="Internal wiring, PCB, battery, and charger installation" width="760">
 </p>
 
-### Charging validation
+### Charging
 
 | Charge cycle in progress | Charge complete |
 |---|---|
