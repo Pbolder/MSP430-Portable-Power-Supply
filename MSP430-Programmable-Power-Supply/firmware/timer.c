@@ -1,4 +1,5 @@
 /*
+ * Paul Bolder
  * timer.c
  *
  * Provides a 1 ms Timer_A0 interrupt and periodic task flags.
