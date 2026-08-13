@@ -1,4 +1,5 @@
 /*
+ * Paul Bolder
  * ssd1309.c
  *
  * Minimal SSD1309 128x64 I2C driver.
