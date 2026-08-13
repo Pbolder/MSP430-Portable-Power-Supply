@@ -6,7 +6,7 @@
  * current uses mA so they can be compared directly with g_measurements.
  */
 #define HIGH_TEMPERATURE_TRIP_DECI_C     350
-#define HIGH_TEMPERATURE_RESET_DECI_C    450
+#define HIGH_TEMPERATURE_RESET_DECI_C    300
 #define BUCK_OVERCURRENT_TRIP_MA        2700L
 #define BUCK_OVERCURRENT_RESET_MA        500L
 
