@@ -1,4 +1,5 @@
 /*
+ * Paul Bolder
  * measurements.c
  *
  * Converts the eight ADS1115 channels into correct units.
