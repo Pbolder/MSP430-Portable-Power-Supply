@@ -1,4 +1,5 @@
 /*
+ * Paul Bolder
  * display.c
  *
  * Automatic mode-specific SSD1309 screens.  Values are formatted
