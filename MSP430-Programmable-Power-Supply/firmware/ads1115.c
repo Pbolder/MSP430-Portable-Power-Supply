@@ -1,4 +1,5 @@
 /*
+ * Paul Bolder
  * ads1115.c
  *
  * ADS1115 single-ended channel driver.
