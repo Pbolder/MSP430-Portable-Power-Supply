@@ -1,4 +1,5 @@
 /*
+ * Paul Bolder
  * clock.c
  *
  * MSP430G2553 clock configuration.
