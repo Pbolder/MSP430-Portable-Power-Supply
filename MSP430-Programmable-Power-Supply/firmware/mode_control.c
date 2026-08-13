@@ -1,4 +1,5 @@
 /*
+ * Paul Bolder
  * mode_control.c
  *
  * Processes operating-mode and enable-button requests.
